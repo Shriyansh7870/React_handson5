@@ -10,7 +10,6 @@ class Rahul extends Component {
   render() {
     return (
       <div>
-        <h3></h3>
         <h2 onMouseOver={this.marksChanged}>
           Rahul's Marks:{this.state.marks},{this.props.hocsub}
         </h2>
